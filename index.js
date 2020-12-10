@@ -104,7 +104,7 @@ const template =
 
 ## Questions
  ${contactInfo}
-* Github: ${username}
+* [Github: ](https://github.com/${username})
 * Email: ${eMail}
 `
             makeTheFile(projName, template);

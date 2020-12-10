@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const { fileURLToPath } = require('url');
 
 const questions = [
     {
@@ -76,16 +75,16 @@ const template =
 `# ${projName}
                 
 # Table of Contents
-* [Description](description)
-* [Installation](install)
-* [Usage](usage)
-* [License](license)
-* [Contributions](contributions)
-* [Tests](tests)
-* [Contact Information](contactInfo)
+* [Description](Description)
+* [Installation](Install)
+* [Usage](Usage)
+* [License](License)
+* [Contributions](Contributions)
+* [Tests](Tests)
+* [Contact Information](ContactInfo)
 
 ## Description
-* ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)
+ ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)<br>
  ${description}
 
 ## Installation
@@ -103,7 +102,7 @@ const template =
 ## Tests
  ${tests}
 
-## Contact Information
+## Questions
  ${contactInfo}
 * Github: ${username}
 * Email: ${eMail}

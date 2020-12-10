@@ -75,13 +75,13 @@ const template =
 `# ${projName}
                 
 # Table of Contents
-* [Description](#Description)
-* [Installation](#Install)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributions](#Contributions)
-* [Tests](#Tests)
-* [Questions](#Questions)
+* [Description](#description)
+* [Installation](#install)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Description
  ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)<br>

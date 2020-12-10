@@ -1,34 +1,34 @@
-# README_Generator
+# readme_generator
                 
 # Table of Contents
-* [Description](description)
-* [Installation](install)
-* [Usage](usage)
-* [License](license)
-* [Contributions](contributions)
-* [Tests](tests)
-* [Contact Information](contactInfo)
+* [Description](#description)
+* [Installation](#install)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Description
-* ![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)
- Automatically generate a README based off user input
+ ![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)<br>
+ This application works to dynamically generate a README.md file using your input from the command line. 
 
 ## Installation
- Clone into an existing Github Repo
+ Clone this repo into a new repo of your own. Do not start with a README.md file in your repo. You will need to have the 'inquirer' package installed to your terminal. Then run this file in the command line and answer the questions that are presented!
 
 ## Usage
- Through the command line
+ See 'Installation'.
 
 ## License
  MIT
 
 ## Contributions
- Please share any updates with me
+ NA
 
 ## Tests
- Through the command line
+ NA
 
-## Contact Information
- Please feel free to reach out anytime
+## Questions
+ NA
 * Github: Coryfay
-* Email: Coryfay97@gmail.com
+* Email: coryfay97@gmail.com

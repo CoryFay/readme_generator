@@ -30,5 +30,5 @@
 
 ## Questions
  NA
-* Github: Coryfay
+* Github: [Coryfay](https://github.com/Coryfay)
 * Email: coryfay97@gmail.com

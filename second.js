@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-// array of questions for user
+
 const questions = [
     {
         type: 'input',
@@ -54,30 +54,19 @@ const questions = [
     //     name: 'contactInfo'
     // },
 ];
-let emptyData;
 
-// function to write README file
-function writeToFile(fileName, emptyData) { 
-    console.log(emptyData); 
-}
-
-// function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then(data => {
-        emptyData = data;
-    });
+    .then(({
+        projName,
+        description,
+        install
+    }) => {
+        const template = ` # ${projName}
+        
+        `
+    }
+    )
 }
 
-// function to generate markdown for README
-// function generateMarkdown(data) {
-//     return `# ${data.projName}
-  
-//   `;
-  
-//   //writeToFile();
-//   }
-
-// function call to initialize program
 init();
-writeToFile();

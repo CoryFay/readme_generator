@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { fileURLToPath } = require('url');
+// const { fileURLToPath } = require('url');
 
 const questions = [
     {
@@ -70,43 +70,44 @@ function init() {
             username,
             eMail
 
-        }) => {
-            const template =
-                ` # ${projName}
+        }) => 
+        {
+const template =
+`#${projName}
                 
-                # Table of Contents
-                [Description](description)
-                [Installation](install)
-                [Usage](usage)
-                [License](license)
-                [Contributions](contributions)
-                [Tests](tests)
-                [Contact Information](contactInfo)
+#Table of Contents
+[Description](description)
+[Installation](install)
+[Usage](usage)
+[License](license)
+[Contributions](contributions)
+[Tests](tests)
+[Contact Information](contactInfo)
 
-                ## Description
-                ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)
-                ${description}
+##Description
+![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)
+${description}
 
-                ## Installation
-                ${install}
+##Installation
+${install}
 
-                ## Usage
-                ${usage}
+##Usage
+${usage}
 
-                ## License
-                ${license}
+##License
+${license}
 
-                ## Contributions
-                ${contributions}
+##Contributions
+${contributions}
 
-                ## Tests
-                ${tests}
+##Tests
+${tests}
 
-                ## Contact Information
-                ${contactInfo}
-                ${username}
-                ${eMail}
-            `
+##Contact Information
+${contactInfo}
+${username}
+${eMail}
+`
             makeTheFile(projName, template);
         }
         )

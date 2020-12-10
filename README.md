@@ -1,35 +1,34 @@
- # apples
+#Generator
                 
-                # Table of Contents
-                [Description](description)
-                [Installation](install)
-                [Usage](usage)
-                [License](license)
-                [Contributions](contributions)
-                [Tests](tests)
-                [Contact Information](contactInfo)
+#Table of Contents
+[Description](description)
+[Installation](install)
+[Usage](usage)
+[License](license)
+[Contributions](contributions)
+[Tests](tests)
+[Contact Information](contactInfo)
 
-                ## Description
-                ![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)
-                pears
+##Description
+![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)
+A readme file generator
 
-                ## Installation
-                bananas
+##Installation
+clone into existing repo
 
-                ## Usage
-                oranges
+##Usage
+command line
 
-                ## License
-                MIT
+##License
+MIT
 
-                ## Contributions
-                fruit
+##Contributions
+Please share wtih me
 
-                ## Tests
-                salad
+##Tests
+command line
 
-                ## Contact Information
-                tumm
-                yumm
-                in my
-            
+##Contact Information
+anytime
+coryfay
+coryfay97@gmail.com

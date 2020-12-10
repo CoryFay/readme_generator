@@ -73,19 +73,19 @@ function init() {
         }) => 
         {
 const template =
-`#${projName}
+`# ${projName}
                 
 # Table of Contents
- [Description](description)
- [Installation](install)
- [Usage](usage)
- [License](license)
- [Contributions](contributions)
- [Tests](tests)
- [Contact Information](contactInfo)
+* [Description](description)
+* [Installation](install)
+* [Usage](usage)
+* [License](license)
+* [Contributions](contributions)
+* [Tests](tests)
+* [Contact Information](contactInfo)
 
 ## Description
- ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)
+* ![License: ${license}](https://img.shields.io/badge/License-${license}-hotpink.svg)
  ${description}
 
 ## Installation
@@ -105,8 +105,8 @@ const template =
 
 ## Contact Information
  ${contactInfo}
-* ${username}
-* ${eMail}
+* Github: ${username}
+* Email: ${eMail}
 `
             makeTheFile(projName, template);
         }

@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const { fileURLToPath } = require('url');
 
 const questions = [
     {
@@ -106,8 +107,18 @@ function init() {
                 ${username}
                 ${eMail}
             `
+            makeTheFile(projName, template);
         }
         )
+    } 
+
+    function makeTheFile(name, data){
+        fs.writeFile('README.md', data, (err) => {
+            if (err){
+                console.log(err);
+            }
+            console.log("README has been successfully generated.")
+        })
     }
 
 init();

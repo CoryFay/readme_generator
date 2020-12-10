@@ -1,6 +1,7 @@
+// Two required libraries for the application
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+// Array of questions to be ran in command line
 const questions = [
     {
         type: 'input',
@@ -54,7 +55,7 @@ const questions = [
         name: 'contactInfo'
     },
 ];
-
+// Function that prompts the user with the 'questions', runs 'makeTheFile()' after
 function init() {
     inquirer.prompt(questions)
         .then(({
@@ -71,6 +72,7 @@ function init() {
 
         }) => 
         {
+// Saves the desired template for the README to a constant            
 const template =
 `# ${projName}
                 
@@ -107,11 +109,12 @@ const template =
 * Github: [${username}](https://github.com/${username})
 * Email: ${eMail}
 `
+            // call the function 
             makeTheFile(projName, template);
         }
         )
     } 
-
+// fs.writeFile function following given template in 'init()'
     function makeTheFile(name, data){
         fs.writeFile('README.md', data, (err) => {
             if (err){
@@ -120,5 +123,5 @@ const template =
             console.log("README has been successfully generated.")
         })
     }
-
+// Calls the function to get started
 init();

@@ -1,34 +1,34 @@
 #Generator
                 
-#Table of Contents
-[Description](description)
-[Installation](install)
-[Usage](usage)
-[License](license)
-[Contributions](contributions)
-[Tests](tests)
-[Contact Information](contactInfo)
+# Table of Contents
+ [Description](description)
+ [Installation](install)
+ [Usage](usage)
+ [License](license)
+ [Contributions](contributions)
+ [Tests](tests)
+ [Contact Information](contactInfo)
 
-##Description
-![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)
-A readme file generator
+## Description
+ ![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)
+ readme generator
 
-##Installation
-clone into existing repo
+## Installation
+ clone into a git repo
 
-##Usage
-command line
+## Usage
+ command line
 
-##License
-MIT
+## License
+ MIT
 
-##Contributions
-Please share wtih me
+## Contributions
+ share with me
 
-##Tests
-command line
+## Tests
+ command line
 
-##Contact Information
-anytime
-coryfay
-coryfay97@gmail.com
+## Contact Information
+ Feel free to reach out anytime!
+* Coryfay
+* coryfay97@gmail.com
